@@ -3128,7 +3128,6 @@ def General():
 	local.StartCycle(Slashing, sec=600, args=(ton, ))
 	local.StartCycle(Domains, sec=600, args=(ton, ))
 	local.StartCycle(Telemetry, sec=60, args=(ton, ))
-	local.StartCycle(Mining, sec=1, args=(ton, ))
 	local.StartCycle(ScanBlocks, sec=1, args=(ton,))
 	local.StartCycle(ReadBlocks, sec=0.3, args=(ton,))
 	local.StartCycle(ScanLiteServers, sec=60, args=(ton,))
